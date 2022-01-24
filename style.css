@@ -1,0 +1,35 @@
+body{
+  background-color: brown;
+}
+#welcome{
+  height: 200;
+  width: 200;
+  border:rgb(255, 215, 0);
+  border-style: double;
+  border-width: 7px;
+  float: right;
+}
+h1{color: greenyellow;
+background-color: green;}
+
+#show_sketch{float: right;}
+
+canvas{
+border-radius: 20px;
+margin-top: 100px;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 58px greenyellow;}
+to{box-shadow: 1px 1px 58px orange;}  
+}
+p{padding-top: 10px; 
+font-size: 25px;
+font-weight: bold;
+color:  red;}
+
+#time{
+ color: red;
+}
